@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_units">
+
+    <fragment
+        android:id="@+id/navigation_units"
+        android:name="com.gabrielferrari.convertify.ui.fragments.UnitsFragment"
+        android:label="@string/title_units"
+        tools:layout="@layout/fragment_units" />
+
+    <fragment
+        android:id="@+id/navigation_tools"
+        android:name="com.gabrielferrari.convertify.ui.fragments.ToolsFragment"
+        android:label="@string/title_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/navigation_finance"
+        android:name="com.gabrielferrari.convertify.ui.fragments.FinanceFragment"
+        android:label="@string/title_finance"
+        tools:layout="@layout/fragment_finance" />
+
+    <fragment
+        android:id="@+id/navigation_math"
+        android:name="com.gabrielferrari.convertify.ui.fragments.MathFragment"
+        android:label="@string/title_math"
+        tools:layout="@layout/fragment_math" />
+</navigation>
