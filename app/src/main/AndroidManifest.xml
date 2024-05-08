@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Convertify"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activitiesButton.WeightActivityButton"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.MainActivity"
             android:exported="false" />
         <activity
